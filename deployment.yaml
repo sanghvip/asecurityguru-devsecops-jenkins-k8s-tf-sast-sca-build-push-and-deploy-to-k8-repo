@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: asgbuggy
-        image: 645183578083.dkr.ecr.us-east-1.amazonaws.com/asg
-        imagePullPolicy: Never
+        image: 645183578083.dkr.ecr.us-east-1.amazonaws.com/sanghvip:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
 # service type loadbalancer       
